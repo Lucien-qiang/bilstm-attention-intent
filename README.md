@@ -44,7 +44,6 @@ The script will automatically load trained models in `model/model-ckpt`
 
 Result will be exported into `model/tfserving/1`
 
----
 
 ## TF-Serving
 
@@ -57,5 +56,7 @@ To start serving
 To user client for testing tfserving.
 
 ```cd model_serving/client && python classifier_client.py ```
+
+---
 
 ### testset Acc: 0.973
