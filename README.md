@@ -38,7 +38,7 @@ Prediction log will be stored in `bin/log`
 
 To use the training model online, the model need to be exported for TF-Serving.
 
-```python model_training classifier_export.py ```
+```python model_training classifier_export.py```
 
 The script will automatically load trained models in `model/model-ckpt`
 
